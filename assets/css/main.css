@@ -3158,5 +3158,53 @@ canvas.particles-js-canvas-el {
 .experience-content {
     flex-grow: 1;
 }
+.language-skill {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  padding: 0 50px;
+}
+/* Ensure the rows are flex containers */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+/* Ensure the articles stretch to equal height */
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure timeline-items stretch to fill the available height */
+.timeline-items {
+  flex-grow: 1;
+}
+
+/* Add a border to the boxes */
+.box-border {
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Ensure the rows are flex containers */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Ensure the experience items stretch to equal height */
+.experience-item {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Add a border to the boxes */
+.box-hover-border {
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+}
 }
