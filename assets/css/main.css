@@ -1377,6 +1377,14 @@ canvas.particles-js-canvas-el {
   font-weight: normal;
 }
 
+.language-skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 0 50px;
+}
+
 /*-------------------------
          PORTFOLIO
 -------------------------*/
@@ -3207,4 +3215,9 @@ article {
   padding: 20px;
   box-sizing: border-box;
 }
+
+.profile-picture {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
 }
